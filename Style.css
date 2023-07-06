@@ -1,31 +1,33 @@
- /* Style the top navigation bar */
+html, body {
+  height: 100%;
+}
 
-  /* Style the navigation bar links */
+.descriçao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 81px;
+  color: red;
+}
+
+h4{
+  font-size: 50px;
+}
+
+h5{
+  font-size: larger;
+}
 
 
-  /* Style Search Bar */
-
-  
-  /* Button Search */
-
-  
-
-  /* BTN Login */
-  
- 
-  
-  /* Style Linha */
-
-  /* Style Header/logo Title  */    
-
-
-  /* Explanation Projeto Somar */
+  /* Explanation Projeto  */
   .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
   }
 
   /* BTN - Saiba Mais */
@@ -56,7 +58,8 @@
   .main {
     height:auto;
     background-color: white;
-    padding: 20px;
+    padding: 56px;
+    
   }
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
   /* Body */
@@ -84,12 +87,27 @@ body
     vertical-align: middle;
   }
 
+    /* Grid */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
 
 
 
-
-
- 
+  /* Grid fim */
 
   /* Footer */
   .footer {
@@ -108,10 +126,12 @@ body
     flex: -0.75;
     padding: 0.25rem;
     text-align: center;
+    
   }
   .social-icon {
     max-width: 100%;
     height: auto;
+    
   }
 
   
