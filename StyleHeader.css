@@ -221,7 +221,7 @@ color:#91c89B;
         
     }
 }
-header .user{
+header .bag{
     position: relative;
     display:flex;
     justify-content: center;
@@ -230,13 +230,13 @@ header .user{
     z-index: 10;
     cursor: pointer;
 }
-.userRequire.active
+.bagRequire.active
 {
     right: 0;
    
 
 }
-.user {
+.bag {
     position: relative;
     left: 30px;
    
