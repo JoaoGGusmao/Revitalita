@@ -82,14 +82,7 @@ header ul li a::before
     text-decoration: none;
     color:#fff ;
 }
-header ul li a:hover::before
-{
-    transform: scaleX(1);
-    transform-origin:left ;
-    color:#fff;
-        text-decoration: none;
 
-}
 header .search
 {
     position: relative;
