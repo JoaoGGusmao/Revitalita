@@ -17,6 +17,11 @@ h4{
 
 h5{
   font-size: larger;
+  text-align: justify;
+  vertical-align: middle;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+ 
 }
 
 h6{
