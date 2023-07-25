@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  background-color: whitesmoke;
 }
 
 .descriçao {
@@ -41,7 +42,7 @@ ion-icon {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
+    background-color: whitesmoke;
   }
 
   /* BTN - Saiba Mais */
@@ -71,7 +72,7 @@ ion-icon {
   /* Main column */
   .main {
     height:auto;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 56px;
     
   }
@@ -84,7 +85,7 @@ body
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+   
   }
   
   .parent {
@@ -195,6 +196,9 @@ body
       flex-direction: column;
     }
   }
-
+.icon-icon{
+  flex: 100%;
+      max-width: 100%;
+}
 
   
