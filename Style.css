@@ -111,7 +111,7 @@ body
 
   /* Footer */
   .footer {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     color: #91c89B;
     background: #081329;
@@ -156,5 +156,9 @@ body
     .row, .navbar {   
       flex-direction: column;
     }
+  }
+  .pagina-contrucao {
+    font-size: 40px;
+    color: #081329;
   }
   
