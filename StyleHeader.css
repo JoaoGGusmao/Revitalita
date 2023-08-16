@@ -75,14 +75,21 @@ header ul li a::before
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background: #91c89B;
+    background: #ffffff;
     transform: scaleX(0);
     transition: 0.5s ease-in-out;
     transform-origin: right ;
     text-decoration: none;
-    color:#fff ;
+    color:#ffffff ;
 }
+header ul li a:hover::before
+{
+    transform: scaleX(1);
+    transform-origin:left ;
+    color:#ffffff ;
+        text-decoration: none;
 
+}
 header .search
 {
     position: relative;
