@@ -200,9 +200,6 @@ body
     font-size: 40px;
     color: #081329;
   }
-.icon-icon{
-  flex: 100%;
-      max-width: 100%;
-}
-
-  
+  insta{
+    font-size: 64px;
+  }
