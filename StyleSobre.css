@@ -59,6 +59,11 @@ header ul li
 list-style: none;
 }
 
+li{
+    font-size: large;
+    color: #8DD3CE;
+  }
+  
 header ul li a
 {
     position: relative;
